@@ -21,23 +21,23 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_lmsvar		/var/lib/lms
 
 %description
-Userpanel is automated virtual customer service, based on LMS and using
-its core features. It enables customers (or it's intended to) to do review
-their payments, change their personal details or computer properties,
-modify subscriptions, submit problems, track their requests on Helpdesk
-and print invoices. It means, it makes a closer contact with their ISP.
+Userpanel is automated virtual customer service, based on LMS and
+using its core features. It enables customers (or it's intended to) to
+do review their payments, change their personal details or computer
+properties, modify subscriptions, submit problems, track their
+requests on Helpdesk and print invoices. It means, it makes a closer
+contact with their ISP.
 
 %description -l pl
-Userpanel jest opart± na szkielecie LMS (i ¶ci¶le z LMS wspó³pracuj±c±)
-implementacj± tzw. e-boku. Umo¿liwia (albo bêdzie umo¿liwia³) klientom
-przegl±danie stanu swoich wp³at, zmianê swoich danych osobowych, edycjê
-w³a¶ciwo¶ci swoich komputerów, zmianê taryf, zg³aszanie b³êdow oraz awarii
-do Helpdesku, wydruk faktur oraz formularza przelewu.
+Userpanel jest opart± na szkielecie LMS (i ¶ci¶le z LMS
+wspó³pracuj±c±) implementacj± tzw. e-boku. Umo¿liwia (albo bêdzie
+umo¿liwia³) klientom przegl±danie stanu swoich wp³at, zmianê swoich
+danych osobowych, edycjê w³a¶ciwo¶ci swoich komputerów, zmianê taryf,
+zg³aszanie b³êdów oraz awarii do Helpdesku, wydruk faktur oraz
+formularza przelewu.
 
 %prep
 %setup -q -n userpanel
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT

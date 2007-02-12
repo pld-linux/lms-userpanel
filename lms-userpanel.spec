@@ -4,7 +4,7 @@
 %define		_cvs	20060721
 
 Summary:	LAN Managment System - Userpanel
-Summary(pl):	System Zarz±dzania Sieci± Lokaln± - Panel U¿ytkownika
+Summary(pl.UTF-8):   System ZarzÄ…dzania SieciÄ… LokalnÄ… - Panel UÅ¼ytkownika
 Name:		lms-userpanel
 Version:	1.1
 Release:	0.%{_cvs}.1
@@ -28,12 +28,12 @@ properties, modify subscriptions, submit problems, track their
 requests on Helpdesk and print invoices. It means, it makes a closer
 contact with their ISP.
 
-%description -l pl
-Userpanel jest opart± na szkielecie LMS (i ¶ci¶le z LMS
-wspó³pracuj±c±) implementacj± tzw. e-boku. Umo¿liwia (albo bêdzie
-umo¿liwia³) klientom przegl±danie stanu swoich wp³at, zmianê swoich
-danych osobowych, edycjê w³a¶ciwo¶ci swoich komputerów, zmianê taryf,
-zg³aszanie b³êdów oraz awarii do Helpdesku, wydruk faktur oraz
+%description -l pl.UTF-8
+Userpanel jest opartÄ… na szkielecie LMS (i Å›ciÅ›le z LMS
+wspÃ³Å‚pracujÄ…cÄ…) implementacjÄ… tzw. e-boku. UmoÅ¼liwia (albo bÄ™dzie
+umoÅ¼liwiaÅ‚) klientom przeglÄ…danie stanu swoich wpÅ‚at, zmianÄ™ swoich
+danych osobowych, edycjÄ™ wÅ‚aÅ›ciwoÅ›ci swoich komputerÃ³w, zmianÄ™ taryf,
+zgÅ‚aszanie bÅ‚Ä™dÃ³w oraz awarii do Helpdesku, wydruk faktur oraz
 formularza przelewu.
 
 %prep

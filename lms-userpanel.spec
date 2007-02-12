@@ -4,7 +4,7 @@
 %define		_cvs	20060721
 
 Summary:	LAN Managment System - Userpanel
-Summary(pl.UTF-8):   System Zarządzania Siecią Lokalną - Panel Użytkownika
+Summary(pl.UTF-8):	System Zarządzania Siecią Lokalną - Panel Użytkownika
 Name:		lms-userpanel
 Version:	1.1
 Release:	0.%{_cvs}.1

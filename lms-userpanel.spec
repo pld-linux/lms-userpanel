@@ -1,17 +1,17 @@
 # TODO:
 #	- better files structure
 
-%define		_cvs	20060721
+%define		_cvs	20070912
 
 Summary:	LAN Managment System - Userpanel
 Summary(pl.UTF-8):	System Zarządzania Siecią Lokalną - Panel Użytkownika
 Name:		lms-userpanel
-Version:	1.1
+Version:	1.3
 Release:	0.%{_cvs}.1
 License:	GPL v2
 Group:		Networking/Utilities
 Source0:	userpanel-%{version}-cvs-%{_cvs}.tar.bz2
-# Source0-md5:	9ce39bdd265376d90685a88846513e32
+# Source0-md5:	ce3d56e69eed3e5ffb8f9dadffad469b
 URL:		http://userpanel.rulez.pl/
 BuildRequires:	rpmbuild(macros) >= 1.268
 Requires:	lms >= 1.6.7

@@ -1,7 +1,7 @@
 # TODO:
 #	- better files structure
 
-%define		_cvs	20070912
+%define		_cvs	20080704
 
 Summary:	LAN Managment System - Userpanel
 Summary(pl.UTF-8):	System Zarządzania Siecią Lokalną - Panel Użytkownika
